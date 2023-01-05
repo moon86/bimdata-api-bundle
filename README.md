@@ -19,8 +19,8 @@ To install the dependencies via [Composer](http://getcomposer.org/), add the fol
 ```json
 {
     "repositories": [{
-        "type": "path",
-        "url": "//Path to your generated openapi bundle"
+        "type": "vcs",
+        "url" : "git@github.com:moon86/bimdata-api-bundle.git"
     }],
 }
 ```
@@ -28,7 +28,7 @@ To install the dependencies via [Composer](http://getcomposer.org/), add the fol
 Then run:
 
 ```
-composer require GIT_USER_ID/GIT_REPO_ID:dev-master
+composer require moon86/bimdata-api-bundle:dev-main
 ```
 
 to add the generated openapi bundle as a dependency.
